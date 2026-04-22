@@ -1,0 +1,77 @@
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------
+# Environment files
+# ----------------------
+.env
+.env.*
+
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# ----------------------
+# Node.js
+# ----------------------
+node_modules/
+package-lock.json
+yarn.lock
+
+# ----------------------
+# Java
+# ----------------------
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# ----------------------
+# Database files
+# ----------------------
+*.sqlite
+*.db
+*.sql
+
+# ----------------------
+# IDEs / Editors
+# ----------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ----------------------
+# Build / Dist
+# ----------------------
+dist/
+build/
+out/
+
+# ----------------------
+# Misc
+# ----------------------
+*.tmp
+*.temp
+*.swp
